@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@700&family=Sofia+Sans+Semi+Condensed:wght@200&display=swap');
+body {
+  background-image: url('background.jpg');
+  background-size: 2500px 1700px;
+  background-repeat: repeat;
+  background-color: rgba(0, 0, 0, 0.562);
+  background-blend-mode: darken;
+  background-position-y: 10%;
+
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+
+  font-family: serif;
+}
+
+.container {
+  display: flex;
+  gap: 12px;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  margin-top: -8px;
+}
+
+.drumContainer {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+
+  width: 130px;
+  height: 90px;
+
+  border: 3px outset rgb(75, 75, 75);
+  border-radius: 4px;
+  background-color: rgba(17, 17, 17, 0.459);
+  position: relative;
+
+  color: azure;
+}
+
+.drum {
+  width: 133px;
+  height: 93px;
+  position: absolute;
+}
+
+.drumContainer:active,
+.keypress {
+  transform: scale(0.97);
+}
+
+.key {
+  font-size: 2.2em;
+  font-family: 'Rowdies', cursive;
+  color: #b5ffe2de;
+  text-shadow: 0 0 8px rgba(44, 41, 53, 0.295);
+}
+.label {
+  letter-spacing: 0.1em;
+  font-family: 'Sofia Sans Semi Condensed', sans-serif;
+  font-size: 1.29em;
+  font-weight: 500;
+  text-shadow: 0px 0px 15px rgba(25, 25, 27, 0.644);
+  color: rgb(233, 198, 44);
+}
