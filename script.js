@@ -6,7 +6,7 @@ async function drumHandler(e) {
   if (arguments.length > 1) {
     drumPressed = arguments[0];
   } else {
-    drumPressed = arguments[0].originalTarget.id;
+    drumPressed = arguments[0].target.id;
   }
   let pressedDiv = document.getElementsByClassName(drumPressed); //---Handles animation for key press
   pressedDiv[0].classList.toggle('keypress'); //---
