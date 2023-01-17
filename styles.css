@@ -56,6 +56,7 @@ body {
 .drumContainer:active,
 .keypress {
   transform: scale(0.97);
+  border-color: rgb(233, 198, 44);
 }
 
 .key {
